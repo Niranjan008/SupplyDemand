@@ -30,7 +30,7 @@ locs_df = locs_df[~locs_df['Province/State'].isin(['US', 'American Samoa', 'Nort
 
 locs_df.drop(columns=['Unnamed: 0'], inplace=True)
 locations = sorted(list(set(locs_df['Province/State'])))
-locations.insert(0, locations.pop(locations.index('Illinois')))
+locations.insert(0, locations.pop(locations.index('TamilNadu')))
 locs_df = 0
 
 counties_df = []
